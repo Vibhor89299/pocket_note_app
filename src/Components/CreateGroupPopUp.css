@@ -1,0 +1,77 @@
+.CG_PopUp {
+    background-color: #fff;
+    border-radius: 6px;
+    width: 35%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.CG_PopUp label {
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 1.2rem;
+}
+
+.CG_PopUp h3 {
+    padding: 1rem;
+}
+
+.CG_PopUp label:first-of-type input {
+    position: relative;
+    left: 7%;
+    border-radius: 28px;
+    border-color: rgba(0, 0, 0, 0.1);
+    height: 2.125rem;
+    width: 60%;
+    text-indent: 6%;
+    font-size: 15px;
+}
+
+.CG_PopUp label:last-of-type input {
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    margin-left: 1.7rem;
+    cursor: pointer;
+}
+
+.CG_PopUp label:last-of-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.CG_PopUp button:last-of-type {
+    width: fit-content;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 11px;
+    font-size: larger;
+    font-family: 'Roboto' monospace;
+    position: relative;
+    left: 75%;
+    top: 2.5%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.CG_PopUp button:first-of-type {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    transform: translate(32rem, -0.5rem);
+    border: none;
+    padding: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+}
+ 
